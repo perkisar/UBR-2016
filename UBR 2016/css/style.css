@@ -37,20 +37,20 @@
 	body {
 		font-family: "Raleway", Helvetica, Arial, sans-serif;
 		font-size: 14px;
-		font-weight: 200;
+		font-weight: 300;
 		line-height: 1.7857;
 		color: #333333;
 		background-color: #fff;
 	}
 
-	a { 
-		color: #000;
-		-webkit-transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
-	}
+    a {
+        color: #000;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
 
 	a:hover {
 		color: #000;
@@ -61,6 +61,13 @@
 		border: 0;
 		text-decoration: none;
 	}
+
+    
+    .redLink a {
+        color: #940707;
+        font-weight:700;
+        text-decoration:underline;
+    }
 
 	#st-preloader {
 		background: #FFF;
@@ -125,9 +132,32 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		opacity: 0.8;
+		opacity: 0.7;
 	}
 
+
+
+    .cinzel,    .cinzel h1, 
+    .cinzel h2, .cinzel h3, 
+    .cinzel h4, .cinzel h5, 
+    .cinzel h6, .cinzel p 
+    
+    {
+        font-family: 'Cinzel', serif;
+    }
+
+    .overlayImg {
+        max-height:100%;
+        max-width:100%;
+    }
+
+    .uppercase {
+        text-transform:uppercase;
+    }
+
+    .fiftyPX {
+        font-size:50px;
+    }
 
 /* 3. BUTTONS */
 
@@ -174,7 +204,12 @@
 
 /* 4. HEADER */
 
-	#header{background:url(https://s3.amazonaws.com/pix-media/blog/324/wine-bottle-sizes-4.jpg) fixed;}
+	#header{
+        background:url(https://s3.amazonaws.com/pix-media/blog/324/wine-bottle-sizes-4.jpg);
+                    background-repeat:no-repeat;
+            background-size:100%;
+            background-position:center;
+        }
 
 	#header .navbar {
 		min-height: 80px;
@@ -207,11 +242,69 @@
 	}
 
 	.ubr-navbar .navbar-toggle{
-		margin-top: 7px;
+		margin-top: 27px;
 		margin-right: 25px;
 		padding: 0;
 		border-radius: 0;
 	}
+
+
+/* 4A. OVERLAY  */
+.reserve {
+    position:absolute;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:1040;
+    background-color:rgba(0,0,0,.4);
+    overflow:hidden;
+    padding:4%;
+}
+
+#bookingBox {
+    width:100%;
+    height:100%;
+    background-color:#fff;
+    border-radius:5px;
+}
+
+.selected {
+    background-color:rgba(0,0,0,.2);
+}
+
+.reserve form {
+    padding:25px 50px 50px 50px;
+}
+
+.reserve input {
+    max-width:500px;
+}
+
+.reserve h1 {
+    padding:0 0 25px 0;
+}
+
+.bookingBox iframe {
+    width:500px;
+}
+
+.reserve {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
 
 
 
@@ -222,12 +315,17 @@
 	}
 
 	#home-carousel  .item {
-		background-position: center top;
-		background-repeat: no-repeat;
-		background-size:cover;
-		width:100%;
 		height: 650px;
 	}
+
+    @media(max-width:940px){
+            #home-carousel .item {
+            background-position: center top;
+		    background-repeat: no-repeat;
+		    background-size:cover;
+		    width:100%;
+        }
+    }
 
 	#home-carousel .item:before{
 		background-color: #000;
@@ -356,8 +454,8 @@
 
 	#aboutUs{
 		background-color: #f5f5f5;
-		padding-top: 130px;
-		padding-bottom: 120px;
+		padding-top: 75px;
+		padding-bottom: 75px;
 	}
 
 	.section-title{
@@ -595,26 +693,26 @@
 
 /* 9. MORE INFO */
 	
-	#more-info{
+	.more-info{
 		background-color: #f5f5f5;
 	}
 
-	#more-info .more-info{
+	.more-info .more-info{
 		padding-left: 15%;
 		padding-right: 15%;
 		padding-top: 15%;
 	}
 
-	#more-info .more-info h4{
+	.more-info .more-info h4{
 		margin-top: 0;
 		margin-bottom: 30px;
 	}
 
-	#more-info .more-info .btn-send{
+	.more-info .more-info .btn-send{
 		margin-top: 30px;
 	}
 
-	#more-info .our-office{
+	.more-info .our-office{
 		padding-right: 0px;
 	}
 
@@ -651,6 +749,14 @@
 	}
 
 	#office-carousel:hover .office-carousel-right {
+		right:0;
+	}
+
+	#office-carousel2:hover .office-carousel-left {
+		left:0;
+	}
+
+	#office-carousel2:hover .office-carousel-right {
 		right:0;
 	}
 
@@ -1095,3 +1201,113 @@
     opacity: 1;
   }
 }
+
+
+    @media (min-width:940px){
+        .event-header {
+            background:url(../events/4.jpeg); 
+            background-repeat:no-repeat;
+            background-size:100%;
+            background-position:center;
+        }
+    }
+
+    
+    @media (max-width:940px){
+        .event-header {
+            background:url(../events/4.jpeg); 
+            background-repeat:no-repeat;
+            background-size:100%;
+            background-position:center;
+        }
+    }
+
+    .resize img {
+        margin-left:80px;
+        max-width:100%;
+        display:block;
+        margin:0 auto;
+    }
+
+    .eventImg {
+        max-width:100%;
+    }
+
+    .events {
+        text-align:center;
+    }
+
+    .events .text {
+        padding:3% 8% 3% 8%;
+    }
+    .eventpic {
+
+    }
+
+    
+    .pic {
+        background:url(../events/winetasting.jpg);
+        height:100%;
+        background-size:100% cover;
+        background-size:cover;
+    }
+
+    .pic:nth-child(1){
+        background:url(../events/mimosa2.jpg);
+        height:100%;
+        background-size:cover;
+    }
+
+
+    @media (min-width:992px){
+         .pic, .pic:nth-child(1) {
+            background-size:cover;
+            background-repeat:no-repeat;
+            width:50%;
+            height:100%;
+        }
+
+                 .row {
+            height:50%;
+        }
+             #event {
+                 height:100%;
+             }
+             .events {
+                 height:100%; background-color:#f5f5f5;
+             }
+
+             #anchor {
+                 position:absolute;
+                 margin-top:-200px;
+             }
+
+                    .marginFix {
+                margin-top:5px;
+            }
+    }
+
+    
+    @media (min-width:1100px) {
+                            .marginFix {
+                margin-top:50px;
+            }
+    }
+    
+    @media (max-width:991px){
+        .pic, .pic:nth-child(1) {
+            display:none;
+        }
+    }
+
+    @media (max-width:1000px){
+
+    }
+
+
+    @media (max-width:1100px){
+           .nomobi {
+            display:none;
+        }
+    }
+   

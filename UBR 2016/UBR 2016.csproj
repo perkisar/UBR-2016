@@ -61,11 +61,28 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\fullcalendar.css" />
+    <Content Include="events\1.jpg" />
+    <Content Include="events\2.jpg" />
+    <Content Include="events\3.jpg" />
+    <Content Include="events\4.jpeg" />
+    <Content Include="events\4.jpg" />
+    <Content Include="events\5.jpeg" />
+    <Content Include="events\5.jpg" />
+    <Content Include="events\index.html" />
+    <Content Include="events\mimosa.jpg" />
+    <Content Include="events\mimosa2.jpg" />
+    <Content Include="events\winetasting.jpg" />
     <Content Include="images\food\dinnerrr.jpeg" />
     <Content Include="images\food\happyhour.jpg" />
     <Content Include="images\food\lunch.jpg" />
     <Content Include="images\food\wine.jpeg" />
+    <Content Include="js\calendar.js" />
+    <Content Include="js\date.js" />
+    <Content Include="js\fullcalendar.js" />
     <Content Include="js\menu.js" />
+    <Content Include="js\moment.js" />
+    <Content Include="js\reservationCal.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
@@ -76,10 +93,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="images\icon\manifest.json" />
-    <Content Include="pdf\Dinner Oct16.pdf" />
-    <Content Include="pdf\Happy Hour Oct16.pdf" />
-    <Content Include="pdf\Lunch16.pdf" />
-    <Content Include="pdf\Wine16.pdf" />
+    <Content Include="pdf\Dinner 10-21.pdf" />
+    <Content Include="pdf\Happy Hour Cocktails 10-21.pdf" />
+    <Content Include="pdf\Lunch 10-21.pdf" />
+    <Content Include="pdf\Wine 10-21.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -169,6 +186,7 @@
     <Content Include="js\scripts.js" />
     <Content Include="js\smoothscroll.js" />
     <Content Include="js\waypoints.min.js" />
+    <Content Include="pdf\winetasting.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -218,7 +218,7 @@
 
     (function () {
 
-        $('.copyright').append('<a href="http://perkisar.com" rel="nofollow" target="_blank"><p>Website by Sarah Perkins</p></a>')
+        $('.copyright').append('<a href="https://perkisar.github.io/" rel="nofollow" target="_blank"><p>Website by Sarah Perkins</p></a>')
     }());
 
 });
