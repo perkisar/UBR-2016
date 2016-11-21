@@ -93,10 +93,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="images\icon\manifest.json" />
-    <Content Include="pdf\Dinner 10-21.pdf" />
-    <Content Include="pdf\Happy Hour Cocktails 10-21.pdf" />
-    <Content Include="pdf\Lunch 10-21.pdf" />
-    <Content Include="pdf\Wine 10-21.pdf" />
+    <Content Include="pdf\Dinner.pdf" />
+    <Content Include="pdf\HappyHr.pdf" />
+    <Content Include="pdf\Lunch.pdf" />
+    <Content Include="pdf\Wine.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
