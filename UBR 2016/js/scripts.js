@@ -19,35 +19,36 @@
     // ---------------------------------------------- 
     //  magnific-popup
     // ----------------------------------------------
-	(function () {
+    // SAVE THIS FOR PRODUCT PAGES!!!! IT'S AWESOME
+    //(function () {
 
-		$('.portfolio-items').magnificPopup({ 
-			delegate: 'a',
-			type: 'image',
-			// other options
-			closeOnContentClick: false,
-			closeBtnInside: false,
-			mainClass: 'mfp-with-zoom mfp-img-mobile',
+	//	$('.portfolio-items').magnificPopup({ 
+	//		delegate: 'a',
+	//		type: 'image',
+	//		// other options
+	//		closeOnContentClick: false,
+	//		closeBtnInside: false,
+	//		mainClass: 'mfp-with-zoom mfp-img-mobile',
 
-			gallery: {
-				enabled: false
-			},
-			zoom: {
-				enabled: true,
-				duration: 300, // don't foget to change the duration also in CSS
-				opener: function(element) {
-					return element.find('i');
-				}
-			}
+	//		gallery: {
+	//			enabled: false
+	//		},
+	//		zoom: {
+	//			enabled: true,
+	//			duration: 300, // don't foget to change the duration also in CSS
+	//			opener: function(element) {
+	//				return element.find('i');
+	//			}
+	//		}
 
-		});
+	//	});
 
-	}()); 
+	//}()); 
 
 
 
     // ---------------------------------------------- 
-    // Fun facts
+    // testamonials
     // ---------------------------------------------- 
 	(function () {
 		$('.ubr-counter').counterUp({
@@ -59,7 +60,7 @@
 
 
     // ---------------------------------------------- 
-    //  Isotope Filter 
+    //  isotope filter
     // ---------------------------------------------- 
 	(function () {
 		var winDow = $(window);
@@ -68,9 +69,9 @@
 
 		try{
 			$container.imagesLoaded( function(){
-				$container.show();
+				//$container.show();
 				$container.isotope({
-					filter:'*',
+					filter:'.none',
 					layoutMode:'masonry',
 					animationOptions:{
 						duration:750,

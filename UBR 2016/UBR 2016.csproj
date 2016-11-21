@@ -81,6 +81,7 @@
     <Content Include="js\date.js" />
     <Content Include="js\fullcalendar.js" />
     <Content Include="js\menu.js" />
+    <Content Include="js\MenuController.js" />
     <Content Include="js\moment.js" />
     <Content Include="js\reservationCal.js" />
     <Content Include="packages.config" />
@@ -97,6 +98,7 @@
     <Content Include="pdf\HappyHr.pdf" />
     <Content Include="pdf\Lunch.pdf" />
     <Content Include="pdf\Wine.pdf" />
+    <Content Include="wine\index.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
