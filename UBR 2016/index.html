@@ -30,14 +30,15 @@
     <script type="text/javascript" src="js/fullcalendar.js"></script>
     <script type="text/javascript" src="js/calendar.js"></script>
 
+    <!-- AngularJS Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+
     <!-- Meta Tags -->
     <meta name="description" content="The Uptown Barrel Room is a wine bar "/>
     <meta name="keywords" content="Restaurant, Wine Bar, Food, Downtown Vancouver, Wine, Beer, Barrel Room, Uptown Barrel Room" />
 
 </head>
-<body>
-
-
+<body ng-app="dishes">
 
 	<!-- PRELOADER -->
 	<div id="st-preloader">
@@ -134,16 +135,23 @@
     </section>
     <!-- /ABOUT US -->
     <!-- MENU -->
-    <section id="menu" style="padding:100px 0 120px 0">
+    <section id="menu" style="padding:100px 0 0px 0">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
                         <h1>Our Menu</h1>
+                        <p><i>Click on any of the categories below to get started<br />
+                               <i class="fa fa-asterisk" aria-hidden="true"> </i><b>Consuming raw or undercooked meats, poultry, seafood, shellfish,
+                                   or eggs may increase your risk of foodborne illness</b><br />
+                               <i class="fa fa-angle-double-right " aria-hidden="true"></i> <label class="">Gluten free options available</label>  
+                            </i></p>
+
+                        
                         <span class="ubr-border"></span>
                     </div>
                 </div>
-                <div class="pdfs">
+                <!--<div class="pdfs">
                     <p class="subtext center-text"><b>*** Our site is currently under construction. Interactive menu coming soon! Until then, please view our menus in PDF form. Hover over a picture to get started ***</b></p>
                     <div class="col-lg-3 col-md-6 col-sm-6 links">
                         <a href="/pdf/Dinner.pdf" target="_blank">
@@ -177,83 +185,41 @@
                            </div>
                        </a>
                     </div>
-                </div>
+                </div>-->
 
-                <!--<div class="portfolio-wrapper" id="our-menu">
+                <div ng-controller="MenuController"  class="portfolio-wrapper" id="our-menu">
                     <div class="col-md-12">
                         <ul class="filter">
-                            <li><a class="active" href="#" data-filter="*">Lunch</a></li>
-                            <li><a href="#" data-filter=".wordpress">Dinner</a></li>
-                            <li><a href="#" data-filter=".html">Happy Hour</a></li>
-                            <li><a href="#" data-filter=".graphic">Wines</a></li>
-                            <li><a href="#" data-filter=".php">Beer</a></li>
+                            <li><a class="active" href="#" data-filter=".none"></a></li>
+                            <li><a href="#" data-filter=".lunch">Lunch</a></li>
+                            <li><a href="#" data-filter=".dinner">Dinner</a></li>
+                            <li><a href="#" data-filter=".sides">Sides</a></li>
+                            <li><a href="#" data-filter=".brunch">Brunch</a></li>
+                            <li><a href="#" data-filter=".happyhr">Happy Hour</a></li>
+                            <li><a href="#" data-filter=".cocktails">Cocktails</a></li>
+                            <li><a href="#" data-filter=".wine">Wine</a></li>
                         </ul>
                     </div>
 
-                    <div class="portfolio-items">
-
-                        <div class="col-md-4 col-sm-6 work-grid wordpress graphic">
+                    <div class="portfolio-items">         
+                        <div ng-repeat="dish in dishes"  class="col-md-4 col-sm-6 work-grid {{ dish.menu }} {{ dish.submenu }} ">
                             <div class="portfolio-content">
-                                <img class="img-responsive" src="images/works/portfolio-1.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <h5>Elk Burger</h5>
-                                    <p>served on a brioche bun with carmelized onions, etc. </p>
+                                <a ng-show="dish.alink" href="{{ dish.alink }}">
+                                    <img class="img-responsive" src="{{ dish.src }}" alt="">
+                                    <div class="portfolio-overlay">
+                                        <h5 class="menuItemTitle">{{ dish.name }}</h5>
+                                        <p class="menuItemDesc">{{ dish.desc }}</p>
+                                    </div>
+                                </a>
+                                <img ng-hide="dish.alink" class="img-responsive" src="{{ dish.src }}" alt="">
+                                <div ng-hide="dish.alink" class="portfolio-overlay">
+                                    <h5 class="menuItemTitle">{{ dish.name }}</h5>
+                                    <p class="menuItemDesc">{{ dish.desc }}</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-md-4 col-sm-6 work-grid html php bootstrap">
-                            <div class="portfolio-content">
-                                <img class="img-responsive" src="images/works/portfolio-2.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <h5>Elk Burger</h5>
-                                    <p>served on a brioche bun with carmelized onions, etc. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 work-grid wordpress graphic">
-                            <div class="portfolio-content">
-                                <img class="img-responsive" src="images/works/portfolio-3.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <h5>Elk Burger</h5>
-                                    <p>served on a brioche bun with carmelized onions, etc. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 work-grid html php bootstrap">
-                            <div class="portfolio-content">
-                                <img class="img-responsive" src="images/works/portfolio-4.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <h5>Elk Burger</h5>
-                                    <p>served on a brioche bun with carmelized onions, etc. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 work-grid wordpress graphic php">
-                            <div class="portfolio-content">
-                                <img class="img-responsive" src="images/works/portfolio-5.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <h5>Elk Burger</h5>
-                                    <p>served on a brioche bun with carmelized onions, etc. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 work-grid html bootstrap graphic">
-                            <div class="portfolio-content">
-                                <img class="img-responsive" src="images/works/portfolio-6.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <h5>Elk Burger</h5>
-                                    <p>served on a brioche bun with carmelized onions, etc. </p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-                </div>-->
+                </div>
 
             </div>
         </div>
@@ -441,6 +407,8 @@
 		<ul><li><a href="#header"><i class="fa fa-angle-up"></i></a></li></ul>
 	</div>
     
+    <!-- Controllers -->
+    <script type="text/javascript" src="js/MenuController.js"></script>
 	
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.parallax.js"></script>
@@ -453,7 +421,6 @@
 	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
-
     <script type="text/javascript" src="js/date.js"></script>
 </body>
 </html>
