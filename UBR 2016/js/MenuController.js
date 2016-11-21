@@ -276,14 +276,14 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'brunch',
             name: 'Eggs Benedict',
             desc: 'poached eggs and ham on english muffin topped with hollandaise and served with hash browns ',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/brunch/eggsBenedict.jpg'
         },
         {
             menu: 'brunch',
             submenu: 'brunch',
             name: 'Corned Beef Hash',
             desc: 'topped with two poached eggs and cheddar cheese served with warm biscuit and honey butter',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/brunch/cornedBeefHash.jpg'
         },
         {
             menu: 'brunch',
@@ -318,14 +318,14 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'brunch',
             name: 'Stuffed French Toast',
             desc: 'peanut butter and banana stuffed french toast topped with warm maple syrup and bacon crumbles',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/brunch/pbBananaFrenchToast.jpg'
         },
         {
             menu: 'brunch',
             submenu: 'brunch',
             name: 'Chicken Fried Steak',
             desc: 'topped with sausage gravy and served with two eggs, hash browns, and warm biscuit',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/brunch/chickenFriedSteak.jpg'
         },
         {
             menu: 'brunch',
@@ -484,39 +484,34 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             name: 'Bubbles',
             desc: 'Sparkling wine is a wine with significant levels of carbon dioxide in it, making it fizzy. The classic example of a sparkling wine is champagne, which is exclusively produced in the Champagne region of France. Click here to see our full selection of wines.',
             src: 'images/works/portfolio-1.jpg',
-            alink: 'wine/#bubbles'
         },
         {
             menu: 'wine',
             submenu: 'dessert',
             name: 'Dessert Wines',
             desc: 'Dessert wines, sometimes called pudding wines, are sweet wines typically served with dessert. There is no simple definition of a dessert wine. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg',
-            alink: 'wine/#dessert'
+            src: 'images/works/portfolio-1.jpg'
         },
         {
             menu: 'wine',
             submenu: 'white',
             name: 'White Wines',
             desc: 'White wine is a wine whose color can be straw-yellow, yellow-green, or yellow-gold coloured. It is produced by the alcoholic fermentation of the non-colored pulp of grapes which may have a white or black skin. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg',
-            alink: 'wine/#white'
+            src: 'images/works/portfolio-1.jpg'
         },
         {
             menu: 'wine',
             submenu: 'rose',
             name: 'Rose Wines',
             desc: 'A rosé is a type of wine that incorporates some of the color from the grape skins, but not enough to qualify it as a red wine. It may be the oldest known type of wine, as it is the most straightforward to make with the skin contact method. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg',
-            alink: 'wine/#rose'
+            src: 'images/works/portfolio-1.jpg'
         },
         {
             menu: 'wine',
             submenu: 'red',
             name: 'Red Wines',
             desc: 'Red wine is a type of wine made from dark-colored grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg',
-            alink: 'wine/#red'
+            src: 'images/works/portfolio-1.jpg'
         },
 
     ]

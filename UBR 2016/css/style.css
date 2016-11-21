@@ -1164,6 +1164,10 @@
 
     }
 
+    .img-responsive {
+        max-height:600px;
+    }
+
 	
 /* 16. SCROLL TO TOP */
 
