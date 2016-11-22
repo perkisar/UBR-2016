@@ -151,41 +151,6 @@
                         <span class="ubr-border"></span>
                     </div>
                 </div>
-                <!--<div class="pdfs">
-                    <p class="subtext center-text"><b>*** Our site is currently under construction. Interactive menu coming soon! Until then, please view our menus in PDF form. Hover over a picture to get started ***</b></p>
-                    <div class="col-lg-3 col-md-6 col-sm-6 links">
-                        <a href="/pdf/Dinner.pdf" target="_blank">
-                            <div class="menuOverlay">
-                                <h1>Dinner</h1>
-                                <p>Click here to see our dinner menu</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 links">
-                        <a href="/pdf/Lunch.pdf" target="_blank">
-                            <div class="menuOverlay">
-                                <h1 class="hoverText">Lunch</h1>
-                                <p>Click here to see our lunch menu</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 links">
-                        <a href="/pdf/HappyHr.pdf" target="_blank">
-                            <div class="menuOverlay">
-                                <h1 class="hoverText">Happy Hour</h1>
-                                <p>Click here to see our happy hour menu, and our cocktail list</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 links">
-                       <a href="pdf/Wine.pdf" target="_blank">
-                           <div class="menuOverlay">
-                               <h1 class="hoverText">Wine List</h1>
-                               <p>Click here to see our extensive wine list, by both bottle and glass</p>
-                           </div>
-                       </a>
-                    </div>
-                </div>-->
 
                 <div ng-controller="MenuController"  class="portfolio-wrapper" id="our-menu">
                     <div class="col-md-12">
@@ -204,7 +169,7 @@
                     <div class="portfolio-items">         
                         <div ng-repeat="dish in dishes"  class="col-md-4 col-sm-6 work-grid {{ dish.menu }} {{ dish.submenu }} ">
                             <div class="portfolio-content">
-                                <a ng-show="dish.alink" href="{{ dish.alink }}">
+                                <a ng-show="dish.alink" href="{{ dish.alink }}" target="_blank">
                                     <img class="img-responsive" src="{{ dish.src }}" alt="">
                                     <div class="portfolio-overlay">
                                         <h5 class="menuItemTitle">{{ dish.name }}</h5>
@@ -227,7 +192,7 @@
 	<!-- /MENU -->
 
 	<!-- MORE INFO -->
-	<!--<section class="more-info">
+	<section class="more-info">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6">
@@ -257,7 +222,7 @@
 				</div>
 			</div>
 		</div>
-	</section>-->
+	</section>
 	<!-- /MORE INFO -->
 	
 	<!-- REVIEWS -->

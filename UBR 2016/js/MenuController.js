@@ -29,21 +29,21 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'entrees',
             name: '>> Angus Burger *',
             desc: '1/2 lbs served on brioche bun with mayo, beetroot relish, lettuce, tomato, and onion with choice of side',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/dinner/angusburger.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'entrees',
             name: '>> Elk Burger *',
             desc: '1/2 lbs served on brioche bun with mayo, beetroot relish, lettuce, tomato, and onion with choice of side',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/dinner/elkburger.jpg'
         },
         {
             menu: 'dinner',
             submenu: 'entrees',
             name: 'Bone in Pork Rib Chop',
             desc: 'seasoned and seared to perfection and served with Yukon gold and sweet potato mashed  and roasted brussel sprouts with pancetta cheese',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/dinner/boneinporkribchop.jpg'
         },
         {
             menu: 'dinner',
@@ -85,7 +85,7 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'entrees',
             name: 'Chicken Club Sandwich',
             desc: 'with pesto mayo, bacon, lettuce, tomato, and goat cheese on a brioche bun served with choice of side',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/lunch/chickenClubSand.jpg'
         },
         {
             menu: 'lunch',
@@ -477,42 +477,48 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
         //}
 
         /* WINE */
-
         {
             menu: 'wine',
-            submenu: 'bubbles',
-            name: 'Bubbles',
-            desc: 'Sparkling wine is a wine with significant levels of carbon dioxide in it, making it fizzy. The classic example of a sparkling wine is champagne, which is exclusively produced in the Champagne region of France. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg',
-        },
-        {
-            menu: 'wine',
-            submenu: 'dessert',
-            name: 'Dessert Wines',
-            desc: 'Dessert wines, sometimes called pudding wines, are sweet wines typically served with dessert. There is no simple definition of a dessert wine. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg'
+            submenu: 'red',
+            name: 'Red Wines',
+            desc: 'Red wine is a type of wine made from dark-colored grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. Click here to see our full selection of wines.',
+            src: 'images/food/wine/red.jpg',
+            alink: 'wine/#red'
         },
         {
             menu: 'wine',
             submenu: 'white',
             name: 'White Wines',
             desc: 'White wine is a wine whose color can be straw-yellow, yellow-green, or yellow-gold coloured. It is produced by the alcoholic fermentation of the non-colored pulp of grapes which may have a white or black skin. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/wine/white.jpg',
+            alink: 'wine/#white'
         },
+
+        {
+            menu: 'wine',
+            submenu: 'bubbles',
+            name: 'Bubbles',
+            desc: 'Sparkling wine is a wine with significant levels of carbon dioxide in it, making it fizzy. The classic example of a sparkling wine is champagne, which is exclusively produced in the Champagne region of France. Click here to see our full selection of wines.',
+            src: 'images/food/wine/bubbles.jpg',
+            alink: 'wine/#bubbles'
+        },
+        {
+            menu: 'wine',
+            submenu: 'dessert',
+            name: 'Dessert Wines',
+            desc: 'Dessert wines, sometimes called pudding wines, are sweet wines typically served with dessert. There is no simple definition of a dessert wine. Click here to see our full selection of wines.',
+            src: 'images/food/wine/dessert.jpg',
+            alink: 'wine/#dessert'
+        }, 
         {
             menu: 'wine',
             submenu: 'rose',
             name: 'Rose Wines',
             desc: 'A rosé is a type of wine that incorporates some of the color from the grape skins, but not enough to qualify it as a red wine. It may be the oldest known type of wine, as it is the most straightforward to make with the skin contact method. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/wine/rose.jpg',
+            alink: 'wine/#rose'
         },
-        {
-            menu: 'wine',
-            submenu: 'red',
-            name: 'Red Wines',
-            desc: 'Red wine is a type of wine made from dark-colored grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. Click here to see our full selection of wines.',
-            src: 'images/works/portfolio-1.jpg'
-        },
+        
 
     ]
 }]);

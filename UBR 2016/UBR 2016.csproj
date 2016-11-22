@@ -78,9 +78,25 @@
     <Content Include="images\food\brunch\eggsBenedict.jpg" />
     <Content Include="images\food\brunch\pbBananaFrenchToast.jpg" />
     <Content Include="images\food\dinnerrr.jpeg" />
+    <Content Include="images\food\dinner\angusburger.jpg" />
+    <Content Include="images\food\dinner\boneinporkribchop.jpg" />
+    <Content Include="images\food\dinner\elkburger.jpg" />
     <Content Include="images\food\happyhour.jpg" />
     <Content Include="images\food\lunch.jpg" />
+    <Content Include="images\food\lunch\angusburger.jpg" />
+    <Content Include="images\food\lunch\chickenClubSand.jpg" />
+    <Content Include="images\food\lunch\elkburger.jpg" />
     <Content Include="images\food\wine.jpeg" />
+    <Content Include="images\food\wine\bubbles.jpg" />
+    <Content Include="images\food\wine\dessert.jpg" />
+    <Content Include="images\food\wine\red.jpg" />
+    <Content Include="images\food\wine\rose.jpg" />
+    <Content Include="images\food\wine\white.jpg" />
+    <Content Include="images\wine\bubbles\placeholder.jpg" />
+    <Content Include="images\wine\dessert\placeholder.jpg" />
+    <Content Include="images\wine\red\placeholder.jpg" />
+    <Content Include="images\wine\rose\placeholder.jpg" />
+    <Content Include="images\wine\white\placeholder.jpg" />
     <Content Include="js\calendar.js" />
     <Content Include="js\date.js" />
     <Content Include="js\fullcalendar.js" />
@@ -88,6 +104,7 @@
     <Content Include="js\MenuController.js" />
     <Content Include="js\moment.js" />
     <Content Include="js\reservationCal.js" />
+    <Content Include="js\WineController.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
@@ -102,7 +119,10 @@
     <Content Include="pdf\HappyHr.pdf" />
     <Content Include="pdf\Lunch.pdf" />
     <Content Include="pdf\Wine.pdf" />
+    <Content Include="wine\background.jpg" />
     <Content Include="wine\index.html" />
+    <Content Include="wine\scripts.js" />
+    <Content Include="wine\style.css" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -119,9 +139,6 @@
     <Content Include="css\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="images\blog\01.jpg" />
-    <Content Include="images\blog\02.jpg" />
-    <Content Include="images\blog\03.jpg" />
     <Content Include="images\icon\android-icon-144x144.png" />
     <Content Include="images\icon\android-icon-192x192.png" />
     <Content Include="images\icon\android-icon-36x36.png" />
@@ -160,11 +177,6 @@
     <Content Include="images\img5.png" />
     <Content Include="images\img6.png" />
     <Content Include="images\logo.png" />
-    <Content Include="images\members\team1.jpg" />
-    <Content Include="images\members\team2.jpg" />
-    <Content Include="images\office\02.jpg" />
-    <Content Include="images\office\03.jpg" />
-    <Content Include="images\office\04.jpg" />
     <Content Include="images\preloader.gif" />
     <Content Include="images\slider\01.jpg" />
     <Content Include="images\slider\02.jpg" />
@@ -172,12 +184,6 @@
     <Content Include="images\slider\04.jpg" />
     <Content Include="images\test-ubr.png" />
     <Content Include="images\testimonial-bg.jpg" />
-    <Content Include="images\works\portfolio-1.jpg" />
-    <Content Include="images\works\portfolio-2.jpg" />
-    <Content Include="images\works\portfolio-3.jpg" />
-    <Content Include="images\works\portfolio-4.jpg" />
-    <Content Include="images\works\portfolio-5.jpg" />
-    <Content Include="images\works\portfolio-6.jpg" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.counterup.min.js" />
@@ -200,8 +206,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\food\cocktails\" />
-    <Folder Include="images\food\dinner\" />
-    <Folder Include="images\food\lunch\" />
     <Folder Include="images\food\sides\" />
   </ItemGroup>
   <PropertyGroup>
