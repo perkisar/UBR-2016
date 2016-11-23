@@ -20,30 +20,30 @@
     //  magnific-popup
     // ----------------------------------------------
     // SAVE THIS FOR PRODUCT PAGES!!!! IT'S AWESOME
-    //(function () {
+    (function () {
 
-	//	$('.portfolio-items').magnificPopup({ 
-	//		delegate: 'a',
-	//		type: 'image',
-	//		// other options
-	//		closeOnContentClick: false,
-	//		closeBtnInside: false,
-	//		mainClass: 'mfp-with-zoom mfp-img-mobile',
+		$('.portfolio-items').magnificPopup({ 
+			delegate: 'a',
+			type: 'image',
+			// other options
+			closeOnContentClick: false,
+			closeBtnInside: false,
+			mainClass: 'mfp-with-zoom mfp-img-mobile',
 
-	//		gallery: {
-	//			enabled: false
-	//		},
-	//		zoom: {
-	//			enabled: true,
-	//			duration: 300, // don't foget to change the duration also in CSS
-	//			opener: function(element) {
-	//				return element.find('i');
-	//			}
-	//		}
+			gallery: {
+				enabled: false
+			},
+			zoom: {
+				enabled: true,
+				duration: 300, // don't foget to change the duration also in CSS
+				opener: function(element) {
+					return element.find('i');
+				}
+			}
 
-	//	});
+		});
 
-	//}()); 
+	}()); 
 
 
 

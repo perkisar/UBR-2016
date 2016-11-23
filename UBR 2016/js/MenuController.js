@@ -8,21 +8,21 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'entrees',
             name: 'Pasta with Marinara Sauce',
             desc: 'pasta tossed with house-made marinara topped with parmesan cheese and served with garlic bread',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner',
             submenu: 'entrees',
             name: 'Pan Roasted Chicken',
             desc: 'half chicken roasted and served with pan jus,  fingerling potatoes, and garlic green beans',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'entrees',
             name: 'Philly Cheesesteak Sandwich',
             desc: 'Thin sliced roast beef with grilled onions, mushrooms and red peppers topped with melted provolone served with steak fries',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
@@ -50,35 +50,35 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'entrees',
             name: 'Pan Seared Halibut * ',
             desc: 'seared to a golden brown and served with julienned squash and zucchini on a bed of edamame pasta with creamy ginger-carrot sauce and garlic bread ',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner',
             submenu: 'entrees',
             name: 'Portobello Wellington',
             desc: 'pesto and mushroom duxelles stuffed portobello wrapped in puff pastry and baked to perfection, serve on a bed of julienned squash and zucchini and accompanied by a red wine reduction',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner',
             submenu: 'entrees',
             name: 'New York Strip Steak',
             desc: '10 oz strip topped with mushroom demi and served with fingerling potatoes and garlic green beans',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'entrees',
             name: 'Dungeness Crab Mac and Cheese',
             desc: 'baked Mac and Cheese loaded with Dungeness crab, served with side salad',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'lunch',
             submenu: 'entrees',
             name: 'Curried Chicken Salad Sandwich',
             desc: 'curried chicken with celery, onion, mayo, craisins, and cashews served on a toasted rustic sourdough bread with lettuce, tomato, and choice of side',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'lunch',
@@ -92,35 +92,35 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'entrees',
             name: 'Lamb Gyro',
             desc: 'served with lettuce, tomato, cucumber, and tzatziki sauce on a warm pita served with steak fries',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'lunch',
             submenu: 'entrees',
             name: 'Tuna Melt',
             desc: 'tuna salad with mayo, celery, onion, and sweet relish served on rustic sourdough bread and choice of side',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'lunch',
             submenu: 'entrees',
             name: 'Housemade Meatball Sandwich',
             desc: 'meatballs with house made marinara on soft french roll and topped with shredded mozzarella, served with steak fries',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'lunch',
             submenu: 'entrees',
             name: 'Pesto Chicken Pizza',
             desc: 'personal flat bread with creamy pesto sauce, white meat chicken, artichoke hearts, red peppers, and goat cheese crumbles',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'lunch',
             submenu: 'entrees',
             name: 'Personal Chicken Pot Pie',
             desc: 'roasted chicken with fresh carrots, celery, peas, and onions in a creamy sauce topped with puff pastry and baked to perfection. Served with side salad and choice of dressing',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
 
         /* SIDE PLATES */
@@ -129,42 +129,42 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'sideplates',
             name: 'Dungeness Crab Cocktail',
             desc: 'served with spicy cocktail sauce and lemon wedge',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'sideplates',
             name: 'Spicy Tequila Prawns',
             desc: 'sauteed with spicy tequila marinade',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'sideplates',
             name: 'Steak Bites with Mushrooms',
             desc: 'tender marinated beef sauteed with mushrooms',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'sideplates',
             name: 'Braised Pork Shank',
             desc: 'slow cooked pork shank topped with house-made spicy aioli',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'sideplates',
             name: 'Hot Crab Bread',
             desc: 'rustic bread smothered with Dungeness crab and melted Tillamook Cheddar cheese',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'sideplates',
             name: 'Cheese Fondue',
             desc: 'creamy cheese blend served with assorted breads',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
 
         /* SALADS  */
@@ -173,42 +173,42 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'salads',
             name: 'Poached Pear and Bleu Cheese Wedge Salad',
             desc: 'red wine poached pears, bleu cheese and hazelnuts with  bleu cheese dressing',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'salads',
             name: 'Green Salad',
             desc: 'with tomato, cucumber, and onion with choice of dressing',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'salads',
             name: 'Quinoa Salad',
             desc: 'with roasted red peppers and tomatoes tossed with basil-mint vinaigrette and mixed greens',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'salads',
             name: 'Kale Salad with Steak * ',
             desc: 'steak cooked to order and served on a bed of kale and mixed greens topped with warm Cranberry Almond vinaigrette and goat cheese crumbles',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'dinner',
             submenu: 'salads',
             name: 'Dungeness Crab Louie',
             desc: 'iceberg lettuce loaded with Dungeness Crab, hard-boiled egg, tomato wedges, cucumber, and house made Louie dressing',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'lunch',
             submenu: 'salads',
             name: 'Chicken Caesar Pasta Salad',
             desc: 'diced chicken breast and veggies tossed with creamy house made caesar dressing and pasta served over a bed of mixed greens',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
 
         /* SIDES */
@@ -218,42 +218,42 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: '',
             name: 'Steak Fries',
             desc: '',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'sides',
             submenu: '',
             name: 'Garlic Green Beans',
             desc: '',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'sides',
             submenu: '',
             name: 'Seasonal Vegetable',
             desc: '',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'sides',
             submenu: '',
             name: 'Side Salad',
             desc: '',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'sides',
             submenu: '',
             name: 'Baked Macaroni and Cheese',
             desc: '',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'sides',
             submenu: '',
             name: 'Roasted Brussel Sprouts with Pancetta',
             desc: '',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },       
         
         /* BRUNCH */
@@ -262,14 +262,14 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'brunch',
             name: 'Breakfast Sammy',
             desc: 'scrambled eggs, cheddar cheese, and choice of meat on english muffin with fruit cup',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'brunch',
             submenu: 'brunch',
             name: 'Beer Batter Pancakes',
             desc: 'with honey butter and warm maple syrup',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'brunch',
@@ -290,28 +290,28 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'brunch',
             name: 'Biscuits and Sausage Gravy',
             desc: 'two biscuits topped with generous portion of our house made sausage gravy',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'brunch',
             submenu: 'brunch',
             name: 'Steel Cut Oats',
             desc: 'served with brown sugar and dried fruit',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'brunch',
             submenu: 'brunch',
             name: 'Traditional Breakfast',
             desc: 'two eggs any style, hash browns, and warm biscuit',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'brunch',
             submenu: 'brunch',
             name: '3 Egg Omelettes',
             desc: 'served with hash browns and warm biscuit',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'brunch',
@@ -332,7 +332,7 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'brunch',
             name: '10 NY Strip and Eggs',
             desc: 'cooked to order with two eggs, hash browns, and biscuit',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
 
         /* HAPPY HOUR */
@@ -342,139 +342,139 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'happyhr',
             name: 'Brussels Sprouts with Pancetta',
             desc: '$4.50',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'happyhr',
             submenu: 'happyhr',
             name: 'Steak Fries',
             desc: '$3.50',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'happyhr',
             submenu: 'happyhr',
             name: 'Mac and Cheese',
             desc: '$5',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'happyhr',
             submenu: 'happyhr',
             name: 'Hummas with Pita Chips and Veggies',
             desc: '$6',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'happyhr',
             submenu: 'happyhr',
             name: '(3) Meatball Sliders',
             desc: '$6',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'happyhr',
             submenu: 'happyhr',
             name: 'Fondue with Bread',
             desc: '$5',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'happyhr',
             submenu: 'happyhr',
             name: 'Walla Walla Onion Rings',
             desc: '$5',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
         {
             menu: 'happyhr',
             submenu: 'happyhr',
             name: 'Pork Shank with Spicy Aioli',
             desc: '$5',
-            src: 'images/works/portfolio-1.jpg'
+            src: 'images/food/comingsoon.jpg'
         },
 
         /* Cocktails */
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Survive Ginger',
-            desc: 'Three olives vodka, lime, orange, cucumber, and ginger ale',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Rusty Barrel',
-            desc: 'Courvoisier, Cointreau, and lemon',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Sazerac',
-            desc: 'Templeton Rye, Absinthe, bitters, and orange',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Uptown Coffee',
-            desc: 'Tuaca, Kahlua, walnut, relevant cold brew, and whip',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'NW Peach Martini',
-            desc: 'Three olives vodka, peach, cranberry, and lime',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Fourth Plain',
-            desc: 'Woodinville Rye, Campari, Dolin, and orange',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Bramble',
-            desc: 'Voyager Gin, blackberry, and lime',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Pimms',
-            desc: 'Voyager Gin, Pimms, cucumber, lime, lemon, orange, and ginger ale',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Gunstock Iced Tea',
-            desc: 'Evan Williams bourbon, sweet tea, and lemon',
-            src: 'images/works/portfolio-1.jpg'
-        },
-        {
-            menu: 'cocktails',
-            submenu: 'cocktails',
-            name: 'Form of Flattery',
-            desc: 'Eldorado, Velvet Falernum, pineapple, lime, and beet juice',
-            src: 'images/works/portfolio-1.jpg'
-        },
+        
 
-        ///* PICTURE TO DISPLAY ON LOAD */
-
-        //{
-        //    menu: 'none col-md-12',
-        //    submenu: 'none',
-        //    name: 'Form of Flattery',
-        //    desc: 'Eldorado, Velvet Falernum, pineapple, lime, and beet juice',
-        //    src: 'images/works/portfolio-1.jpg'
-        //}
+        /* BEERS */
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Boneyard RPM IPA',
+            desc: '6.5% - 50 IBU',
+            src: 'images/food/beer/boneyard.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Breakside IPA',
+            desc: '6.3% - 74 IBU',
+            src: 'images/food/beer/breakside.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Deschutes Fresh Squeesed IPA',
+            desc: '6.4% - 60 IBU',
+            src: 'images/food/beer/deschutes.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Fortside IPA',
+            desc: '6.9% - 73 IBU',
+            src: 'images/food/beer/fortside.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Barrel Mountain (Starway Stout)',
+            desc: '6.6% ABV - 30 IBU',
+            src: 'images/food/beer/barrelmountain.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Pecan Pie Porter',
+            desc: '5.9% ABV - 20 IBU',
+            src: 'images/food/beer/backwoods.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: '54-40 Brewing (Kascadia Kolsch)',
+            desc: '5.0% - 60 IBU',
+            src: 'images/food/beer/5040brewing.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Widmere Hefeweisen',
+            desc: '4.9% - 30 IBU',
+            src: 'images/food/beer/widmere.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Light Me Up Lager',
+            desc: '4.9% - 30 IBU',
+            src: 'images/food/beer/lightmeup.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: 'beer',
+            name: 'Ace Pineapple Cider',
+            desc: '4.2%',
+            src: 'images/food/beer/acepineapple.jpg'
+        },
+        {
+            menu: 'beer',
+            submenu: '',
+            name: 'Coors Light',
+            desc: '5% - 10 IBU',
+            src: 'images/food/beer/coorslight.jpg'
+        },
 
         /* WINE */
         {
