@@ -36,7 +36,7 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'entrees',
             name: '>> Elk Burger *',
             desc: '1/2 lbs served on brioche bun with mayo, beetroot relish, lettuce, tomato, and onion with choice of side',
-            src: 'images/food/dinner/elkburger.jpg'
+            src: 'images/food/dinner/elkcheeseburger.jpg'
         },
         {
             menu: 'dinner',
@@ -50,7 +50,7 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'entrees',
             name: 'Pan Seared Halibut * ',
             desc: 'seared to a golden brown and served with julienned squash and zucchini on a bed of edamame pasta with creamy ginger-carrot sauce and garlic bread ',
-            src: 'images/food/comingsoon.jpg'
+            src: 'images/food/dinner/Halibut.jpg'
         },
         {
             menu: 'dinner',
@@ -64,14 +64,21 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'entrees',
             name: 'New York Strip Steak',
             desc: '10 oz strip topped with mushroom demi and served with fingerling potatoes and garlic green beans',
-            src: 'images/food/comingsoon.jpg'
+            src: 'images/food/dinner/nystrip.jpg'
+        },
+        {
+            menu: 'dinner',
+            submenu: 'entrees',
+            name: "Bison Shepherd's Pie",
+            desc: 'ground bison and ground beef simmered in a savory sauce with peas and carrots - topped with creamy mashed potatoes and parmesan cheese',
+            src: 'images/food/dinner/shepherdspie.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'entrees',
             name: 'Dungeness Crab Mac and Cheese',
             desc: 'baked Mac and Cheese loaded with Dungeness crab, served with side salad',
-            src: 'images/food/comingsoon.jpg'
+            src: 'images/food/dinner/macncheese.jpg'
         },
         {
             menu: 'lunch',
@@ -143,14 +150,14 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'sideplates',
             name: 'Steak Bites with Mushrooms',
             desc: 'tender marinated beef sauteed with mushrooms',
-            src: 'images/food/comingsoon.jpg'
+            src: 'images/food/dinner/steakbites.jpg'
         },
         {
             menu: 'dinner lunch',
             submenu: 'sideplates',
             name: 'Braised Pork Shank',
             desc: 'slow cooked pork shank topped with house-made spicy aioli',
-            src: 'images/food/comingsoon.jpg'
+            src: 'images/food/dinner/porkshank.jpg'
         },
         {
             menu: 'dinner lunch',
@@ -194,7 +201,7 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: 'salads',
             name: 'Kale Salad with Steak * ',
             desc: 'steak cooked to order and served on a bed of kale and mixed greens topped with warm Cranberry Almond vinaigrette and goat cheese crumbles',
-            src: 'images/food/comingsoon.jpg'
+            src: 'images/food/dinner/steaksalad.jpg'
         },
         {
             menu: 'dinner',
@@ -253,7 +260,7 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
             submenu: '',
             name: 'Roasted Brussel Sprouts with Pancetta',
             desc: '',
-            src: 'images/food/comingsoon.jpg'
+            src: 'images/food/dinner/brusselsprouts.jpg'
         },       
         
         /* BRUNCH */
