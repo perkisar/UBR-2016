@@ -529,3 +529,27 @@ myApp.controller('MenuController', ['$scope', function ($scope) {
 
     ]
 }]);
+
+/* BUTTONS */
+
+myApp.controller('BtnController', ['$scope', function ($scope) {
+    $scope.btns = [
+        {
+            btn: 'lunch',
+            def: 'is-checked'
+        },
+        {
+            btn: 'dinner',
+        },
+        {
+            btn: 'sides',
+        },
+        {
+            btn: 'brunch',
+        },
+        {
+            btn: 'happyhr',
+        },
+
+    ]
+}]);

@@ -124,6 +124,7 @@
     <Content Include="js\calendar.js" />
     <Content Include="js\date.js" />
     <Content Include="js\fullcalendar.js" />
+    <Content Include="js\isotopeMenu.js" />
     <Content Include="js\menu.js" />
     <Content Include="js\MenuController.js" />
     <Content Include="js\moment.js" />

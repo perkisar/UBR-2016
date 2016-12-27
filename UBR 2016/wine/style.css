@@ -620,7 +620,7 @@
 	.portfolio-wrapper ul.filter li a.active{
 		color: #000;
 	}
-
+  
 	.portfolio-wrapper .portfolio-items{
 		clear: both;
 	}
@@ -629,6 +629,10 @@
 		position: relative;
 		margin-bottom: 30px;
 	}
+
+    .help {
+        width:500px;
+    }
 
 	.portfolio-wrapper .portfolio-overlay{
 		position: absolute;
@@ -1275,6 +1279,8 @@
     }
 
 
+
+
     @media (min-width:992px){
          .pic, .pic:nth-child(1) {
             background-size:cover;
@@ -1326,4 +1332,3 @@
             display:none;
         }
     }
-   
